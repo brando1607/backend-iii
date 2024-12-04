@@ -147,7 +147,7 @@ components:
 
 paths:
   /api/mocks/users/{n}:
-    post:
+    get:
       summary: "Create users"
       tags:
         - Mocks
@@ -169,7 +169,7 @@ paths:
           $ref: '#/components/responses/400_wrong_type'  
                     
   /api/mocks/products/{n}:
-    post:
+    get:
       summary: "Create products"
       tags:
         - Mocks
